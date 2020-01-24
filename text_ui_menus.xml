@@ -90,6 +90,7 @@
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
   <TabRatio>274</TabRatio>
+  <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -118,7 +119,7 @@
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
    <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="m2728382300416" ss:Parent="s62">
+  <Style ss:ID="m2395501651424" ss:Parent="s62">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
@@ -129,7 +130,7 @@
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
     ss:Bold="1"/>
   </Style>
-  <Style ss:ID="m2728382300436" ss:Parent="s62">
+  <Style ss:ID="m2395501651444" ss:Parent="s62">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
@@ -140,7 +141,7 @@
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
     ss:Bold="1"/>
   </Style>
-  <Style ss:ID="m2728382300456" ss:Parent="s62">
+  <Style ss:ID="m2395501651464" ss:Parent="s62">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
@@ -207,9 +208,16 @@
    <NumberFormat/>
    <Protection/>
   </Style>
+  <Style ss:ID="s90" ss:Parent="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
   <Style ss:ID="s91" ss:Parent="s63">
    <Alignment ss:Vertical="Bottom"/>
    <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
    <NumberFormat/>
    <Protection/>
   </Style>
@@ -256,18 +264,25 @@
    <Alignment ss:Vertical="Top" ss:WrapText="1"/>
    <Borders/>
   </Style>
-  <Style ss:ID="s101">
+  <Style ss:ID="s101" ss:Parent="s63">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s102">
    <Alignment ss:Vertical="Center" ss:WrapText="1"/>
    <Borders/>
   </Style>
-  <Style ss:ID="s103">
+  <Style ss:ID="s104">
    <Alignment ss:Vertical="Top" ss:WrapText="1"/>
    <Borders/>
    <Font ss:FontName="Arial" x:Family="Swiss"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s105" ss:Parent="s63">
+  <Style ss:ID="s106" ss:Parent="s63">
    <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
    <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"/>
    <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
   </Style>
@@ -305,7 +320,7 @@
       ss:Name="Print_Area"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="13.5" ss:StyleID="s69">
-    <Cell ss:MergeAcross="2" ss:StyleID="m2728382300416"><Data ss:Type="String">Game menu</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m2395501651424"><Data ss:Type="String">Game menu</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="Default">
     <Cell ss:StyleID="s83"><Data ss:Type="String">Language selection</Data></Cell>
@@ -606,7 +621,7 @@
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell><Data ss:Type="String">ui_welcomebeta1mainmenu</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Welcome to the P1 *Technical Beta* of Wolcen: Lords of Mayhem!\n\nThe goal of this experimental Beta is to spot the major issues related to the Multiplayer implementation and how the servers are handling the game. The content is therefore limited to selected features in order to make a progressive testing.\n\nP1 T-Beta will allow you to experiment the random dungeon with your friends and discover a portion of the new content we’re preparing for the Beta release.\n&#10;The servers will be opened starting October 18th until October 25th, 2018.\n\nAfter that, we will close the servers and the technical Beta to work on bug fixing, and prepare for the Phase 2.\n\nDon’t hesitate to join us on Discord and share your feedback with us!\nhttps://discord.gg/wolcenstudio</Data></Cell>
-    <Cell ss:StyleID="s105"><Data ss:Type="String">Cílem této experimentální verze Beta je zjistit hlavní problémy související s implementací multiplayerů a způsob, jakým servery tuto hru zpracovávají. Obsah je proto omezen na vybrané funkce, aby bylo možné provádět progresivní testování. \ N \ nP1 T-Beta vám umožní experimentovat s náhodnými dungeony se svými přáteli a objevit část nového obsahu, který se chystáme na vydání Beta. . \ n&#10;Servery budou otevřeny od 18. října do 25. října 2018. \ n \ nPo tom zavřeme servery a technickou beta verzi, abychom mohli pracovat na opravě chyb, a připravit se na fázi 2. \ n \ n Neváhejte Připojte se k nám na Discordu a podělte se s námi o svůj názor! \ nhttps: //discord.gg/wolcenstudio</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Cílem této experimentální verze Beta je zjistit hlavní problémy související s implementací multiplayerů a způsob, jakým servery tuto hru zpracovávají. Obsah je proto omezen na vybrané funkce, aby bylo možné provádět progresivní testování. \ N \ nP1 T-Beta vám umožní experimentovat s náhodnými dungeony se svými přáteli a objevit část nového obsahu, který se chystáme na vydání Beta. . \ n&#10;Servery budou otevřeny od 18. října do 25. října 2018. \ n \ nPo tom zavřeme servery a technickou beta verzi, abychom mohli pracovat na opravě chyb, a připravit se na fázi 2. \ n \ n Neváhejte Připojte se k nám na Discordu a podělte se s námi o svůj názor! \ nhttps: //discord.gg/wolcenstudio</Data></Cell>
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
@@ -945,12 +960,12 @@
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_ReturnToGame</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">RETURN TO GAME</Data></Cell>
-    <Cell ss:StyleID="s108"><Data ss:Type="String">NÁVRAT DO HRY</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">NÁVRAT DO HRY</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_mm_Options</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">OPTIONS</Data></Cell>
-    <Cell ss:StyleID="s108"><Data ss:Type="String">NASTAVENÍ</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">NASTAVENÍ</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s83"><Data ss:Type="String">Difficulty menu</Data></Cell>
@@ -2010,7 +2025,7 @@
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_title_disconnectedfromgameservices</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">CONNECTION LOST</Data></Cell>
-    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">PŘIPOJENÍ ZTRACENO</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_content_disconnectedfromgameservices</Data></Cell>
@@ -2020,7 +2035,7 @@
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_title_offlinemodenotavailable</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">OFFLINE MODE UNAVAILABLE</Data></Cell>
-    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">OFFLINE REŽIM NEDOSTUPNÝ</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_content_offlinemodenotavailable</Data></Cell>
@@ -2030,37 +2045,37 @@
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_reconnect</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">RECONNECT</Data></Cell>
-    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">OPAKUJI PŘIPOJENÍ</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_title_steamRequestAuthSessionTicketFailed</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">Authentication failed</Data></Cell>
-    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s108"><Data ss:Type="String">Ověření se nezdařilo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_content_steamRequestAuthSessionTicketFailed</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">Failed to retreive your authentication information from steam</Data></Cell>
-    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_title_gamesparksConnectFailed</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">Authentication failed</Data></Cell>
-    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s108"><Data ss:Type="String">Ověření se nezdařilo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_content_gamesparksConnectFailed</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">Could not connect to game services</Data></Cell>
-    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_title_steamConnectFailed</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">Authentication failed</Data></Cell>
-    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s108"><Data ss:Type="String">Ověření se nezdařilo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_content_steamConnectFailed</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">Game services steam authentication failed</Data></Cell>
-    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s108"><Data ss:Type="String">Ověření pro službu Steam se nezdařilo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s83"><Data ss:Type="String">Multiplayer Menu - Leave</Data></Cell>
@@ -2070,17 +2085,17 @@
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_mm_LeaveGroup</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Leave Group</Data></Cell>
-    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">Opustit skupinu</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_title_confirmLeaveGroup</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Leave Group</Data></Cell>
-    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">Opustit skupinu</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_popup_content_confirmLeaveGroup</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Do you really want to leave the group?</Data></Cell>
-    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">Skutečně chceš opustit skupinu?</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s83"><Data ss:Type="String">Multiplayer Menu - Create Game</Data></Cell>
@@ -2090,7 +2105,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="Default">
     <Cell ss:StyleID="s93"><Data ss:Type="String">ui_Seconds</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">Seconds</Data></Cell>
-    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_elapsedTime</Data></Cell>
@@ -2113,37 +2128,37 @@
     <Cell ss:StyleID="s98"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:StyleID="s101"><Data ss:Type="String">ui_popup_content_cannotStartWhileInvitationsPending</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">ui_popup_content_cannotStartWhileInvitationsPending</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">The game can't be launched while there are still invitations currently pending for this session.</Data></Cell>
     <Cell ss:StyleID="s98"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:StyleID="s101"><Data ss:Type="String">ui_popup_title_matchmakingTimeout</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">ui_popup_title_matchmakingTimeout</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Game Creation Failed</Data></Cell>
     <Cell ss:StyleID="s98"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:StyleID="s101"><Data ss:Type="String">ui_popup_content_matchmakingTimeout</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">ui_popup_content_matchmakingTimeout</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Your game couldn't be created, please try again later. </Data></Cell>
     <Cell ss:StyleID="s98"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:StyleID="s101"><Data ss:Type="String">ui_popup_title_matchmakingError</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">ui_popup_title_matchmakingError</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Game Creation Failed</Data></Cell>
     <Cell ss:StyleID="s98"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:StyleID="s101"><Data ss:Type="String">ui_popup_content_matchmakingError</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">ui_popup_content_matchmakingError</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Your game couldn't be created, please try again later. </Data></Cell>
     <Cell ss:StyleID="s98"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:StyleID="s101"><Data ss:Type="String">ui_popup_title_notPartyLeader</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">ui_popup_title_notPartyLeader</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Not Party Leader</Data></Cell>
     <Cell ss:StyleID="s98"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:StyleID="s101"><Data ss:Type="String">ui_popup_content_notPartyLeader</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">ui_popup_content_notPartyLeader</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">You can't launch the game while you aren't the party leader.</Data></Cell>
     <Cell ss:StyleID="s98"/>
    </Row>
@@ -2235,12 +2250,12 @@
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_message_RequestUseDungeonEntrance_PendingJoinInProgressSynchronization_title</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">Synchronization In Progress</Data></Cell>
-    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">ui_message_RequestUseDungeonEntrance_PendingJoinInProgressSynchronization_content</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">The servers are currently busy, please try again in a few seconds</Data></Cell>
-    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s83"><Data ss:Type="String">Multiplayer Menu - Friendlist</Data></Cell>
@@ -2553,7 +2568,7 @@
     <Cell><Data ss:Type="String">Nastavení</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:StyleID="s103"><Data ss:Type="String">Ui_gamepadlayout</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">Ui_gamepadlayout</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Controls</Data></Cell>
     <Cell ss:StyleID="s93"><Data ss:Type="String">Nastavení</Data></Cell>
    </Row>
@@ -2638,7 +2653,7 @@
     <Cell><Data ss:Type="String">Nastavit přezdívku</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:MergeAcross="2" ss:StyleID="m2728382300436"><Data ss:Type="String">Keys rebinding</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m2395501651444"><Data ss:Type="String">Keys rebinding</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s66"><Data ss:Type="String">Ui_keybindingtitle</Data></Cell>
@@ -2806,7 +2821,7 @@
     <Cell ss:StyleID="Default"><Data ss:Type="String">Přepínat mezi levým a pravým předmětem porovnání</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:MergeAcross="2" ss:StyleID="m2728382300456"><Data ss:Type="String">Character selection</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m2395501651464"><Data ss:Type="String">Character selection</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s66"><Data ss:Type="String">Ui_mm_onlinemode</Data></Cell>
@@ -2877,12 +2892,12 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>210</TopRowVisible>
+   <TopRowVisible>273</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>63</ActiveRow>
-     <ActiveCol>3</ActiveCol>
+     <ActiveRow>286</ActiveRow>
+     <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
